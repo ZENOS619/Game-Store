@@ -1,0 +1,163 @@
+@media only screen and (max-width: 1000px){
+
+body{
+    background-color: #111;
+    background: url(../Images/bg.png);
+    background-repeat: repeat;
+    max-width: 100%;
+    position: relative;
+    height: 680vh;
+    
+}
+
+.navigations {
+    display:none;
+}
+
+#mob-navigations {
+    display:block;
+    float: right;
+    height:100vh;
+    position: relative;
+    left: 0;
+    top: 0px;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#mob-navigations ul{
+    list-style: none;
+    line-height: 60px;
+    text-align: center;
+}
+#mob-navigations ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#mob-navigations ul li:hover{
+    background-color:#db811a;
+}
+
+nav .toggle-menu button{
+    display: block;
+    float: right;
+    margin-right: 40px;
+    margin-top: 15px;
+    background: none;
+    border: none;
+    color: #fff;
+    display: block !important;
+}
+
+nav .toggle-menu button:hover{
+    display: block;
+    cursor: pointer;
+    color: coral;
+}
+
+#menu-toggle{
+    background: none;
+    border: none;
+    color: #fff;
+    display: block !important;
+}
+.games-text{
+    width: 100%;
+    margin-left: 30%;
+    position: relative;
+  }
+  .games-line{
+    display: none;
+  }
+
+  .sort{
+      display: none;
+  }
+
+  .games-sub{
+    height: 400px;
+    width: 100%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.507);
+    margin-top: 80px;
+    position: relative;
+    
+  }
+  .game-img{  
+    height: 80%;
+    margin-top: 40px;
+    width: 100%;
+    border-left:4px solid #db811a;
+  }
+  .game-descp{
+    height: 80%;
+    width: 60%;
+    float: left;
+    padding-top: 30px;
+  }
+  .game-descp h3{
+    margin-left: 40px;
+    letter-spacing: 10px;
+    font-size: 40px;
+  }
+  .topic-line{
+    height: 5px;
+    width: 100px;
+    background-color: #db811a;
+    border-radius: 10px;
+    margin-left: 70px;
+  }
+  .game-descp p{
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+  #descp{
+    margin-top: 50px;
+    text-align: justify;
+    width: 80%;
+  }
+  .game-descp p a{
+    text-decoration: none;
+    color: #db811a;
+  }
+  .game-descp button{
+    height: 70px;
+    border-radius: 5px;
+    width: 150px;
+    border: none;
+    float: left;
+    margin-left: 70px;
+    margin-top: 60px;
+  }
+  .steam{
+    height: 100%;
+    width: 30%;
+    float: left;
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+  
+  .steam-text{
+    height: 100%;
+    width: 60%;
+    float: left;
+    padding-top: 18px;
+    font-size: 15px;
+    text-shadow: 2px 2px 3px #000;
+    text-align: left;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+}
